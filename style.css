@@ -1,0 +1,318 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navbar  */
+li{
+    list-style: none;
+    font-weight: 500 !important;
+}
+a{
+    text-decoration: none;
+    color: white !important;
+}
+nav{
+    width: auto;
+}
+.navbars {
+    z-index: 11111111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+}
+.navbar-container{
+    justify-content: space-between;
+}
+.navbar-brand{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF !important;
+    font-weight: 500;    
+}
+.navbar-nav{
+    justify-content: end;
+    display: flex;
+}
+
+.navbar-container{
+    max-width: 1140px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+    padding: 0px 30px;
+}
+.navbar {
+    position: absolute !important;
+    width: 100%;
+    top: 0;
+    margin-top: 25px;
+    color: white !important;
+    z-index: 1111;
+    padding: 0px !important;
+    justify-content: center !important;
+
+}
+.container{
+    position: absolute;
+}
+.logo{
+    justify-content: center;
+}
+.navbar-toggler {
+    padding: 14px !important;
+}
+
+/* banner */
+.banner-text{
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 576px;
+    text-align: center;
+}
+
+.banner{
+    background-image: url('assets/img/bg-masthead.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* color: black; */
+    background-color: gray;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+}
+.banner-title{
+    font-size: 36px;
+}
+.title-underline{
+    width: 40px;
+    height: 2px;
+    background: #F4623A;
+    border-top: 1px solid black;
+}
+.title-btn{
+    background: #F4623A;
+    color: white;
+    padding: 13px 25px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+/* Needed Section */
+.needed-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F4623A;
+    color: white;
+    padding: 100px 0px;
+    font-size: 14px;
+}
+.needed-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 550px;
+    text-align: center;
+}
+.needed-title{
+    font-size: 25px;
+}
+.needed-underline{
+    background-color: white;
+}
+.needed-btn{
+    background-color: white;
+    color: black;
+    padding: 13px 25px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+/* Service */
+.service{
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px;
+}
+.service-container{
+    max-width: 1140px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service-title{
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+}
+.icon{
+    font-size: 28px;
+    color: #F4623A;
+    margin-bottom: 8px;
+}
+.service-description{
+    padding: 0px 20px;
+}
+
+/* Gallery Section */
+.first{
+    background-image: url('assets/img/portfolio/fullsize/1.jpg');
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.second{
+    background-image: url('assets/img/portfolio/fullsize/2.jpg');
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.third{
+    background-image: url('assets/img/portfolio/fullsize/3.jpg');
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fourth{
+    background-image: url('assets/img/portfolio/fullsize/4.jpg');
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fifth{
+    background-image: url('assets/img/portfolio/fullsize/5.jpg');
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.sixth{
+    background-image: url('assets/img/portfolio/fullsize/6.jpg');
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Download Section */
+.download-section{
+    padding: 100px 0px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    opacity: 0.9;
+}
+.download-container{
+    max-width: 1140px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.download-title{
+    font-size: 25px;
+    font-weight: 600;
+}
+.download-btn{
+    background-color: white;
+    color: black;
+    padding: 13px 25px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+/* touch section */
+.touch-section{
+    padding: 100px 0px;
+}
+.touch-title{
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+}
+.input{
+    width: 100%;
+    border: 1.5px solid gainsboro;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    color: black;
+    font-weight: 500;
+    outline: none;
+
+}
+.form-btn{
+    width: 100%;
+    padding: 12px;
+    border-radius: 30px;
+    background-color: #FA9B81;
+    color: white;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+.touch-description{
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+}
+.form-icon{
+    margin-top: 50px;
+}
+.mobile-icon{
+    font-size: 28px;
+    color: #6C757D;
+    margin-bottom: 10px;
+}
+.number{
+    font-weight: 500;
+}
+
+/* footer */
+.footer-section{
+    padding: 30px 0px;
+    text-align: center;
+    background-color: #F8F9FA;
+    color: #6C757D;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+span{
+    font-size: 13px;
+    font-weight: 500;
+}
